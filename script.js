@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const form = document.getElementById('userform');
-const username = document.getElementById('name');
-const age = document.getElementById('age');
+const nameInput = document.getElementById('name');
+const ageInput = document.getElementById('age');
 
 function checkVotingEligibility(name, age) {
 	return new Promise((resolve, reject) => {
