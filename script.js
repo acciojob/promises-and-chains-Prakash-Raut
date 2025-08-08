@@ -22,7 +22,7 @@ const ageInput = document.getElementById("age");
 
       // Validation
       if (name === "" || ageValue === "") {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
         return;
       }
 
